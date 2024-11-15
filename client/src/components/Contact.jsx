@@ -35,7 +35,7 @@ function Contact() {
                 className="w-full outline-none py-2 px-10 rounded-full text-black"
               />
 
-              <button className="bg-[#e29578] py-2 px-16 rounded-full mt-2">
+              <button className="bg-[#e29578] py-2 px-16 rounded-full mt-2 hover:scale-110 duration-150">
                 Send
               </button>
             </form>
@@ -50,8 +50,8 @@ function Contact() {
               <p>baha@gmail.com</p>
             </div>
             <div className="flex items-center gap-6">
-              <FaFacebook className="text-3xl cursor-pointer"/>
-              <RiInstagramFill className="text-3xl cursor-pointer"/>
+              <FaFacebook className="text-3xl cursor-pointer hover:scale-125 duration-150"/>
+              <RiInstagramFill className="text-3xl cursor-pointer hover:scale-125 duration-150"/>
             </div>
           </div>
         </div>
